@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+
+    "paths": {
+      "@api/*": ["./src/api/*"],
+      "@middlewares/*": ["./src/middlewares/*"],
+      "@users/*": ["./src/api/users/*"],
+      "@shops/*": ["./src/api/shops/*"]
+    }
+  }
+}
